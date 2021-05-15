@@ -1,0 +1,99 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #292a2d;
+  border: 0 auto;
+}
+
+.header {
+  align-items: center;
+  margin: 0 auto;
+  background-color: #353839;
+}
+
+.buttons {
+  text-align: center;
+  font-size: medium;
+}
+
+.design-accueil {
+  background-color: #353839;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.8vh;
+  margin: 0.5vh;
+  text-align: center;
+  display: inline-block;
+}
+
+.design-a-propos {
+  background-color: #353839;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.8vh;
+  margin: 0.5vh;
+  text-align: center;
+  display: inline-block;
+}
+
+.design-reseaux {
+  background-color: #353839;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.8vh;
+  margin: 0.5vh;
+  text-align: center;
+  display: inline-block;
+}
+
+.design-contact {
+  background-color: #353839;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.8vh;
+  margin: 0.5vh;
+  text-align: center;
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.img img {
+  width: 8%;
+  padding: 2vh;
+  float: left;
+}
+
+.text {
+  text-align: justify;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+  text-decoration-line: none;
+}
