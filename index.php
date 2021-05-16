@@ -1,4 +1,5 @@
 <?php include('pages/header.php'); ?>
+        <section id="sous-header" style="height:103px"> </section>
         <section id="APropos">
             <div class="container">
                 <div class="text">

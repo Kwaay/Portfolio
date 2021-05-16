@@ -1,58 +1,78 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #292a2d;
-  border: 0 auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+section {
+  overflow: hidden;
+  position: relative;
 }
 
 .header {
   align-items: center;
   margin: 0 auto;
   background-color: #353839;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-container img {
+  width: 64px;
+  height: auto;
+  padding: 2vh;
 }
 
 .buttons {
-  text-align: center;
-  font-size: medium;
+  padding: 2vh;
 }
 
-.design-accueil {
+.button-accueil {
   background-color: #353839;
-  border: 1px solid white;
-  border-radius: 50px;
   padding: 0.8vh;
   margin: 0.5vh;
-  text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 
-.design-a-propos {
+.button-a-propos {
   background-color: #353839;
-  border: 1px solid white;
-  border-radius: 50px;
   padding: 0.8vh;
   margin: 0.5vh;
-  text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 
-.design-reseaux {
+.button-skills {
   background-color: #353839;
-  border: 1px solid white;
-  border-radius: 50px;
   padding: 0.8vh;
   margin: 0.5vh;
-  text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 
-.design-contact {
+.button-contact {
   background-color: #353839;
-  border: 1px solid white;
-  border-radius: 50px;
   padding: 0.8vh;
   margin: 0.5vh;
-  text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+.sous-header {
+  height: 103px;
 }
 
 .container {

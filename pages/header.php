@@ -8,23 +8,24 @@
     </head>
     <body>
         <section class="header">
-            <div class="logo">
-                 <!-- <img src="images/logo.png" alt="Mon Logo"> -->
+            <div class="header-container">
+                <img src="images/insert_logo.png" alt="Mon Logo">
+                <div class="buttons">
+                    <div class="button-accueil">
+                        <a href="index.php" class="link-button">Accueil</a>
+                    </div>
+                    <div class="button-a-propos">
+                        <a href="#APropos" class="link-button">Portfolio</a>
+                    </div>
+                    <div class="button-skills">
+                        <a href="#Skills" class="link-button">Compétences</a>
+                    </div>
+                    <div class="button-contact">
+                        <a href="#Contact" class="link-button">Contact</a>
+                    </div>
+                </div>
             </div>
-            <div class="buttons">
-                <div class="design-accueil">
-                    <a href="index.php" class="link-button">Accueil</a>
-                </div>
-                <div class="design-a-propos">
-                    <a href="#APropos" class="link-button">A propos de moi</a>
-                </div>
-                <div class="design-reseaux">
-                    <a href="#Skills" class="link-button">Mes compétences</a>
-                </div>
-                <div class="design-contact">
-                    <a href="#Contact" class="link-button">Me contacter</a>
-                </div>
-            </div>
+            
         </section>
         
 
