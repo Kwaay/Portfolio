@@ -1,5 +1,5 @@
 body {
-  background-color: #292a2d;
+  background: linear-gradient(45deg, #273341, #151a22);
   margin: 0;
   padding: 0;
   width: 100%;
@@ -13,7 +13,7 @@ section {
 .header {
   align-items: center;
   margin: 0 auto;
-  background-color: #353839;
+  background-color: #273341;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -29,6 +29,10 @@ section {
   width: 64px;
   height: auto;
   padding: 2vh;
+  transition: all 450ms;
+}
+.header-container img:hover {
+  transform: rotate(360deg);
 }
 
 .buttons {
@@ -36,62 +40,295 @@ section {
 }
 
 .button-accueil {
-  background-color: #353839;
+  background-color: #273341;
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: "Karla", sans-serif;
+  font-size: medium;
+  transition: all 450ms;
+}
+.button-accueil:hover {
+  background-color: white;
+  border-radius: 30px;
+  z-index: 999;
+}
+.button-accueil:hover a {
+  color: grey;
 }
 
-.button-a-propos {
-  background-color: #353839;
+.button-portfolio {
+  background-color: #273341;
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: "Karla", sans-serif;
+  font-size: medium;
+  transition: all 450ms;
+}
+.button-portfolio:hover {
+  background-color: white;
+  border-radius: 30px;
+  z-index: 999;
+}
+.button-portfolio:hover a {
+  color: grey;
 }
 
 .button-skills {
-  background-color: #353839;
+  background-color: #273341;
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: "Karla", sans-serif;
+  font-size: medium;
+  transition: all 450ms;
+}
+.button-skills:hover {
+  background-color: white;
+  border-radius: 30px;
+  z-index: 999;
+}
+.button-skills:hover a {
+  color: grey;
 }
 
 .button-contact {
-  background-color: #353839;
+  background-color: #273341;
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: "Karla", sans-serif;
+  font-size: medium;
+  transition: all 450ms;
+}
+.button-contact:hover {
+  background-color: white;
+  border-radius: 30px;
+  z-index: 999;
+}
+.button-contact:hover a {
+  color: black;
 }
 
 .sous-header {
   height: 103px;
 }
 
-.container {
+#portfolio {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
   text-align: center;
-  color: white;
+  justify-content: space-around;
 }
 
-.img img {
-  width: 8%;
+.portfolio-slider {
   padding: 2vh;
-  float: left;
-}
-
-.text {
-  text-align: justify;
+  margin-top: 2vh;
   margin-left: 2vh;
-  margin-right: 2vh;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
 }
 
+.slider {
+  width: 800px;
+  margin: 15px auto;
+  position: relative;
+}
+
+.slider-viewport {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: grid;
+  grid-auto-flow: column;
+  transition: 1s all;
+}
+.slider-content img {
+  width: 800px;
+  height: 400px;
+}
+
+.slider-nav {
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.slider-nav a {
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  background-color: #adafbc;
+  width: 15px;
+  height: 5px;
+  margin: 0 3px;
+}
+.slider-nav a:hover {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+}
+
+#img2:target .slider-content {
+  transform: translateX(-800px);
+}
+
+#img3:target .slider-content {
+  transform: translateX(-1600px);
+}
+
+#img4:target .slider-content {
+  transform: translateX(-2400px);
+}
+
+#img5:target .slider-content {
+  transform: translateX(-3200px);
+}
+
+.portfolio-presentation {
+  padding: 2vh;
+  margin-top: 2vh;
+  margin-right: 2vh;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.portfolio-presentation .img img {
+  height: auto;
+  width: 200px;
+}
+
+.portfolio-presentation .text p {
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 3vh;
+}
+
+.portfolio-presentation .container {
+  display: flex;
+  align-items: center;
+}
+
+.skill-container {
+  padding: 2vh;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+}
+
+.skill-container h3 {
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 3vh;
+}
+
+.skill-bar {
+  width: 90%;
+  height: 25px;
+  position: relative;
+  background: rgba(17, 17, 17, 0.3);
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 30px;
+}
+
+.skill-type {
+  z-index: 1;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Karla", sans-serif;
+}
+
+.skill-html {
+  width: 100%;
+  animation: animation-html 4s;
+  height: 25px;
+  background-color: #ea8564;
+  border-radius: 30px;
+}
+
+@keyframes animation-html {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+.skill-css {
+  animation: animation-css 5s;
+  width: 70%;
+  height: 25px;
+  background-color: #55a69f;
+  border-radius: 30px;
+}
+
+@keyframes animation-css {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+.skill-js {
+  animation: animation-js 4s;
+  width: 65%;
+  height: 25px;
+  background-color: #c44e45;
+  border-radius: 30px;
+}
+
+@keyframes animation-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 65%;
+  }
+}
+.skill-php {
+  animation: animation-php 4s;
+  width: 50%;
+  height: 25px;
+  background-color: #5A69A6;
+  border-radius: 30px;
+}
+
+@keyframes animation-php {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 50%;
+  }
+}
+.skill-sql {
+  animation: animation-sql 4s;
+  width: 80%;
+  height: 25px;
+  background-color: #23b1db;
+  border-radius: 30px;
+}
+
+@keyframes animation-sql {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
 a:link {
   color: white;
   text-decoration: none;

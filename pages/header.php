@@ -4,7 +4,10 @@
         <meta charset="utf-8" />
         <title>Portfolio</title>
         <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        
     </head>
     <body>
         <section class="header">
@@ -14,19 +17,20 @@
                     <div class="button-accueil">
                         <a href="index.php" class="link-button">Accueil</a>
                     </div>
-                    <div class="button-a-propos">
-                        <a href="#APropos" class="link-button">Portfolio</a>
+                    <div class="button-portfolio">
+                        <a href="#portfolio" class="link-button">Portfolio</a>
                     </div>
                     <div class="button-skills">
-                        <a href="#Skills" class="link-button">Compétences</a>
+                        <a href="#skills" class="link-button">Compétences</a>
                     </div>
                     <div class="button-contact">
-                        <a href="#Contact" class="link-button">Contact</a>
+                        <a href="#contact" class="link-button">Contact</a>
                     </div>
                 </div>
-            </div>
-            
-        </section>
+            </div> 
+        </section> 
+        <section class="sous-header"> </section>
+       
         
 
     
