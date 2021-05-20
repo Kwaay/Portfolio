@@ -15,10 +15,10 @@
                 <img src="images/insert_logo.png" alt="Mon Logo">
                 <div class="buttons">
                     <div class="button-accueil">
-                        <a href="index.php" class="link-button">Accueil</a>
+                        <a href="#accueil" class="link-button">Accueil</a>
                     </div>
-                    <div class="button-portfolio">
-                        <a href="#portfolio" class="link-button">Portfolio</a>
+                    <div class="button-presentation">
+                        <a href="#presentation" class="link-button">Présentation</a>
                     </div>
                     <div class="button-skills">
                         <a href="#skills" class="link-button">Compétences</a>
@@ -28,8 +28,7 @@
                     </div>
                 </div>
             </div> 
-        </section> 
-        <section class="sous-header"> </section>
+        </section>
        
         
 
