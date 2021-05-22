@@ -21,7 +21,7 @@
                         <a href="#presentation" class="link-button">Présentation</a>
                     </div>
                     <div class="button-skills">
-                        <a href="#skills" class="link-button">Compétences</a>
+                        <a href="#formations" class="link-button">Formations</a>
                     </div>
                     <div class="button-contact">
                         <a href="#contact" class="link-button">Contact</a>

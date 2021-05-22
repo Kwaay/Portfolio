@@ -117,7 +117,6 @@ section {
 #presentation {
   max-width: 1920px;
   width: 100%;
-  display: flex;
   text-align: center;
   justify-content: flex-start;
   position: relative;
@@ -125,13 +124,17 @@ section {
 
 .presentation-presentation {
   padding: 2vh;
-  margin-top: 2vh;
+  margin-top: 12vh;
   width: 100%;
-  height: 50vh;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   justify-content: center;
+  flex-direction: row;
+}
+
+.presentation-presentation .img {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .presentation-presentation .img img {
@@ -139,15 +142,21 @@ section {
   width: 200px;
 }
 
-.presentation-presentation .title p {
+.presentation-presentation .img p {
   color: white;
   font-family: "Karla", sans-serif;
   font-size: 3vh;
+  margin-block-end: 0;
+  margin-block-start: 1vh;
 }
 
 .presentation-presentation .container {
   display: flex;
   align-items: center;
+}
+
+#presentation .presentation-text {
+  display: inline-flex;
 }
 
 #presentation .presentation-text p {
@@ -156,7 +165,6 @@ section {
   height: 50vh;
   max-width: 1400px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   font-family: "Karla", sans-serif;
   font-size: medium;
@@ -164,28 +172,18 @@ section {
 }
 
 .skill-container {
-  padding: 2vh;
-  margin-top: 2vh;
-  margin-left: 2vh;
-  width: 100%;
-  height: auto;
-  max-width: 500px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.skill-container h3 {
+.skill-container p {
   color: white;
   font-family: "Karla", sans-serif;
-  font-size: 3vh;
-}
-
-.skill-bar {
-  width: 90%;
-  height: 25px;
-  position: relative;
-  background: rgba(17, 17, 17, 0.3);
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  border-radius: 30px;
+  font-size: 2.5vh;
+  margin-block-end: 0;
+  margin-block-start: -3vh;
+  padding-bottom: 1vh;
 }
 
 .skill-type {
@@ -208,84 +206,69 @@ section {
 
 .skill-html {
   width: 100%;
-  animation: animation-html 4s;
   height: 25px;
-  background-color: #ea8564;
+  background-color: #dd4b25;
   border-radius: 30px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 4vh;
 }
 
-@keyframes animation-html {
-  from {
-    width: 35%;
-  }
-  to {
-    width: 100%;
-  }
-}
 .skill-css {
-  animation: animation-css 5s;
-  width: 70%;
+  margin-top: 1vh;
+  width: 100%;
   height: 25px;
-  background-color: #55a69f;
+  background-color: #006db5;
   border-radius: 30px;
+  text-align: left;
+  margin-left: 40%;
+  margin-right: 4vh;
 }
 
-@keyframes animation-css {
-  from {
-    width: 35%;
-  }
-  to {
-    width: 70%;
-  }
-}
-.skill-js {
-  animation: animation-js 4s;
-  width: 65%;
+.skill-scss {
+  margin-top: 1vh;
+  width: 100%;
   height: 25px;
-  background-color: #c44e45;
+  background-color: #c76494;
   border-radius: 30px;
+  text-align: left;
+  margin-left: 60%;
+  margin-right: 4vh;
 }
 
-@keyframes animation-js {
-  from {
-    width: 35%;
-  }
-  to {
-    width: 65%;
-  }
-}
 .skill-php {
-  animation: animation-php 4s;
-  width: 50%;
+  margin-top: 1vh;
+  width: 100%;
   height: 25px;
-  background-color: #5A69A6;
+  background-color: #4d588e;
   border-radius: 30px;
+  text-align: left;
+  margin-left: 60%;
+  margin-right: 4vh;
 }
 
-@keyframes animation-php {
-  from {
-    width: 35%;
-  }
-  to {
-    width: 50%;
-  }
-}
 .skill-sql {
-  animation: animation-sql 4s;
-  width: 80%;
+  margin-top: 1vh;
+  width: 100%;
   height: 25px;
-  background-color: #23b1db;
+  background-color: #dd8a00;
   border-radius: 30px;
+  text-align: left;
+  margin-left: 40%;
+  margin-right: 4vh;
 }
 
-@keyframes animation-sql {
-  from {
-    width: 35%;
-  }
-  to {
-    width: 80%;
-  }
+.skill-js {
+  margin-top: 1vh;
+  width: 100%;
+  height: 25px;
+  background-color: #e4c52cb0;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 4vh;
 }
+
 a:link {
   color: white;
   text-decoration: none;

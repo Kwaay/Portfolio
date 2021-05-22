@@ -5,11 +5,62 @@
             <div class="presentation-presentation">
                 <div class="img">
                      <img src="images/moi.png" alt="Ma photo">
-                </div>
-                <div class="title">
                     <p>
                         Benoit DUMONT 
                     </p>
+                </div>
+                
+                <div class="skill-container">
+
+                    <div class="skill-html">
+                        <span class="skill-type">HTML</span>
+                        <span class="skill-niveau">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                        </span>
+                    </div>
+
+                    <div class="skill-css">
+                        <span class="skill-type">CSS</span>
+                        <span class="skill-niveau">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                        </span>
+                    </div>
+
+                    <div class="skill-scss">
+                        <span class="skill-type">SCSS</span>
+                        <span class="skill-niveau">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                        </span>
+                    </div>
+
+                    <div class="skill-php">
+                        <span class="skill-type">PHP</span>
+                        <span class="skill-niveau">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                        </span>
+                    </div>
+                
+                    <div class="skill-sql">
+                        <span class="skill-type">MySQL</span>
+                        <span class="skill-niveau">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                        </span>
+                    </div>
+
+                    <div class="skill-js">
+                        <span class="skill-type">JS</span>
+                        <span class="skill-niveau">
+                            <img src="images/icons/icon-star.png" alt="Logo Star">
+                        </span>
+                    </div>
                 </div>
             </div>
             <div class="presentation-text">
@@ -26,50 +77,8 @@ Praesent faucibus cursus enim, sit amet pharetra sem. Suspendisse a consequat tu
                 </p>
             </div>
         </section>
-        <section id="skills">
-            <div class="skill-container">
-                <h3> Mes compétences </h3>
-
-                <div class="skill-bar">
-                    <div class="skill-html"> 
-                        <span class="skill-type">HTML</span>
-                        <span class="skill-niveau">Maîtrisé</span>
-                    </div>
-                </div>
-  
-                <div class="skill-bar">
-                    <div class="skill-css">
-                        <span class="skill-type">CSS</span>
-                        <span class="skill-niveau">Maîtrisé</span>
-                    </div>
-                </div>
-
-                <div class="skill-bar">
-                    <div class="skill-js">
-                        <span class="skill-type">JS</span>
-                        <span class="skill-niveau">Débutant</span>
-                    </div>
-                </div>
-                
-                
-                <div class="skill-bar">
-                    <div class="skill-php">
-                        <span class="skill-type">PHP</span>
-                        <span class="skill-niveau">Maîtrisé</span>
-                    </div>
-                </div>
-                
-                <div class="skill-bar">
-                    <div class="skill-sql">
-                        <span class="skill-type">MySQL</span>
-                        <span class="skill-niveau">Maîtrisé</span>
-                    </div>
-                </div>
-    
-                
-</div>
-            </div>
-
+        <section id="formations">
+            
         </section>
         <!-- <section id="contact">
             <div class="contact-container">
