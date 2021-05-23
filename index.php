@@ -3,15 +3,25 @@
         </section>
         <section id="presentation">
             <div class="presentation-presentation">
+                <div class="reseau-container">
+                    <div class="reseau-github">
+                        <img src="images/github-logo.png" alt="Logo GitHub">
+                        <a href="https://github.com/Kwaay" target=”_blank class="reseau-name">GitHub</a>
+                    </div>
+                    <div class="reseau-linkedin">
+                        <img src="images/linkedin-logo.png" alt="Logo LinkedIn">
+                        <a href="https://www.linkedin.com/in/benoit-dumont-7a01bb1b2/" target=”_blank class="reseau-name">LinkedIn</a>
+                    </div>
+                    <div class="reseau-twitter">
+                        <img src="images/twitter-logo.png" alt="Logo Twitter">
+                        <a href="https://twitter.com/Kwaay_" target=”_blank class="reseau-name">Twitter</a>
+                    </div>
+                </div>
                 <div class="img">
                      <img src="images/moi.png" alt="Ma photo">
-                    <p>
-                        Benoit DUMONT 
-                    </p>
+                    <p>Benoit DUMONT</p>
                 </div>
-                
                 <div class="skill-container">
-
                     <div class="skill-html">
                         <span class="skill-type">HTML</span>
                         <span class="skill-niveau">
