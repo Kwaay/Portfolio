@@ -12,11 +12,8 @@
     <body>
         <section class="header">
             <div class="header-container">
-                <img src="images/insert_logo.png" alt="Mon Logo">
+                <img src="images/logos/insert_logo.png" alt="Mon Logo">
                 <div class="buttons">
-                    <div class="button-accueil">
-                        <a href="#accueil" class="link-button">Accueil</a>
-                    </div>
                     <div class="button-presentation">
                         <a href="#presentation" class="link-button">Présentation</a>
                     </div>

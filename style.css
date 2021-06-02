@@ -1,16 +1,54 @@
 body {
-  background-image: linear-gradient(45deg, #273341, #151a22);
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 200vh;
+  height: 500vh;
+  font-family: "Karla", sans-serif;
+  background-color: #151a22;
 }
 
 section {
   overflow: hidden;
   position: relative;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+h4 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+ul {
+  list-style-type: circle;
 }
 
 .header {
@@ -42,30 +80,11 @@ section {
   padding: 2vh;
 }
 
-.button-accueil {
-  background-color: #273341;
-  padding: 0.8vh;
-  margin: 0.5vh;
-  display: inline-flex;
-  font-family: "Karla", sans-serif;
-  font-size: large;
-  transition: all 450ms;
-}
-.button-accueil:hover {
-  background-color: white;
-  border-radius: 30px;
-  z-index: 999;
-}
-.button-accueil:hover a {
-  color: grey;
-}
-
 .button-presentation {
   background-color: #273341;
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: "Karla", sans-serif;
   font-size: large;
   transition: all 450ms;
 }
@@ -83,7 +102,6 @@ section {
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: "Karla", sans-serif;
   font-size: large;
   transition: all 450ms;
 }
@@ -101,7 +119,6 @@ section {
   padding: 0.8vh;
   margin: 0.5vh;
   display: inline-flex;
-  font-family: "Karla", sans-serif;
   font-size: large;
   transition: all 450ms;
 }
@@ -115,7 +132,6 @@ section {
 }
 
 #presentation {
-  max-width: 1920px;
   width: 100%;
   text-align: center;
   justify-content: flex-start;
@@ -124,11 +140,11 @@ section {
 
 .presentation-presentation {
   padding: 2vh;
-  margin-top: 12vh;
   width: 100%;
   display: inline-flex;
   justify-content: center;
   flex-direction: row;
+  margin-top: 12vh;
 }
 
 .presentation-presentation .img {
@@ -144,7 +160,6 @@ section {
 
 .presentation-presentation .img p {
   color: white;
-  font-family: "Karla", sans-serif;
   font-size: 3vh;
   margin-block-end: 0;
   margin-block-start: 1vh;
@@ -162,11 +177,10 @@ section {
 #presentation .presentation-text p {
   text-align: justify;
   width: 100%;
-  height: 50vh;
-  max-width: 1400px;
+  padding: 2vh;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
-  font-family: "Karla", sans-serif;
   font-size: medium;
   color: white;
 }
@@ -183,7 +197,6 @@ section {
   margin-left: 15px;
   color: #fff;
   font-size: 18px;
-  font-family: "Karla", sans-serif;
 }
 
 .skill-niveau {
@@ -191,7 +204,6 @@ section {
   padding-right: 15px;
   float: right;
   color: #fff;
-  font-family: "Karla", sans-serif;
   font-size: 18px;
 }
 
@@ -206,6 +218,10 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 450ms;
+}
+.skill-html:hover {
+  transform: scale(1.2);
 }
 
 .skill-css {
@@ -220,6 +236,10 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 450ms;
+}
+.skill-css:hover {
+  transform: scale(1.2);
 }
 
 .skill-scss {
@@ -234,6 +254,10 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 450ms;
+}
+.skill-scss:hover {
+  transform: scale(1.2);
 }
 
 .skill-php {
@@ -248,6 +272,10 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 450ms;
+}
+.skill-php:hover {
+  transform: scale(1.2);
 }
 
 .skill-sql {
@@ -262,6 +290,10 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 450ms;
+}
+.skill-sql:hover {
+  transform: scale(1.2);
 }
 
 .skill-js {
@@ -276,6 +308,10 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 450ms;
+}
+.skill-js:hover {
+  transform: scale(1.2);
 }
 
 .reseau-container {
@@ -289,7 +325,6 @@ section {
   z-index: 1;
   color: #fff;
   font-size: 18px;
-  font-family: "Karla", sans-serif;
   margin-right: 15px;
 }
 
@@ -303,6 +338,10 @@ section {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
+  transition: all 450ms;
+}
+.reseau-github:hover {
+  transform: scale(1.2);
 }
 
 .reseau-github img {
@@ -320,6 +359,10 @@ section {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
+  transition: all 450ms;
+}
+.reseau-linkedin:hover {
+  transform: scale(1.2);
 }
 
 .reseau-linkedin img {
@@ -336,11 +379,78 @@ section {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 6vh;
+  margin-left: 20%;
+  margin-right: 4vh;
+  transition: all 450ms;
+}
+.reseau-twitter:hover {
+  transform: scale(1.2);
 }
 
 .reseau-twitter img {
   height: 32px;
   width: 32px;
+}
+
+.formation-container {
+  color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 12vh;
+}
+
+.formation-prep-fullstack {
+  color: white;
+  padding: 2vh;
+}
+
+.formation-prep-fullstack p {
+  text-align: justify;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.formation-prep-fullstack h2 {
+  display: inline-flex;
+  align-items: center;
+}
+
+.formation-prep-fullstack h3 {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.formation-prep-fullstack img {
+  margin: 2vh;
+}
+
+.projet-chalets-caviar {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.5vh;
+}
+
+.projet-chalets-caviar img {
+  width: 300px;
+  height: 150px;
+}
+
+.projet-chalets-caviar p {
+  padding: 1vh;
+}
+
+.projet-gbaf {
+  display: inline-flex;
+  align-items: center;
+}
+
+.projet-gbaf p {
+  padding: 1vh;
+}
+
+.projet-gbaf img {
+  width: 300px;
+  height: 150px;
 }
 
 a:link {
