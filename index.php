@@ -139,7 +139,7 @@
                         <li>Recueillir la saisie d’un formulaire utilisateur en langage PHP</li>
                     </ul>
                 </div>
-
+                <br />
                 <div class="formation-dev-web">
                     <h2><img src="images/logos/oc-logo.png" alt="Logo OpenClassrooms" width="60px" height="60px">Formation "Développeur Web"</h2>
                     <p>
@@ -242,8 +242,29 @@
         </section>
         <section id="contact">
             <div class="contact-container">
-                
-            </div>
+                <div class="contact-form">
+                    <h3>Me contacter</h3>
+                    <form method="POST" action="mail.php">
+                        <div class="form-nom">
+                            <label for="nom"></label>
+                            <input type="textarea" name="nom" id="nom" placeholder="Votre nom">
+                        </div>
+                        <div class="form-email">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="Votre email">
+                        </div>
+                        <br />
+                        <div class="form-demande">
+                            <label for="demande"></label>
+                            <input type="textarea" name="demande" id="demande" placeholder="Votre Demande">
+                        </div>
+                        <br />
+                        <div class="form-submit">
+                            <input type="submit" name="submit" id="submit" value="Envoyer">
+                        </div>
+                    </form>
+                </div>
+            </div> 
         </section>
     </body>
 </html>

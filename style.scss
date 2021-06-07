@@ -132,13 +132,15 @@ ul {
     position: relative;
 }
 .presentation-presentation {
-    padding: 2vh;
+    padding-top: 2vh;
     width: 100%;
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 12vh;
+    max-width: 1440px;
 }
+
 .presentation-presentation .img {
     display:inline-flex; 
     align-items:center; 
@@ -160,6 +162,7 @@ ul {
 }
 #presentation .presentation-text {
     display: inline-flex;
+    max-width: 1440px;
 }
 #presentation .presentation-text p {
     text-align: justify;
@@ -392,7 +395,6 @@ ul {
 .formation-prep-fullstack img {
     margin-top: 2vh;
     margin-bottom: 1vh;
-    margin-left:-2vh;
     margin-right: 1vh;
 }
 .projet-chalets-caviar {
@@ -446,7 +448,6 @@ ul {
 .formation-dev-web img {
     margin-top: 2vh;
     margin-bottom: 1vh;
-    margin-left:-2vh;
     margin-right: 1vh;
 }
 .projet-1 {
@@ -535,6 +536,114 @@ ul {
 .projet-6 ul {
     margin-top:-20px;
 }
+
+//------------ Section: Contact -----------//
+.contact-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 12vh;
+}
+.contact-form {
+    color: white;
+    text-align: center;
+    padding: 2vh;
+}
+.contact-form h3 {
+    padding-bottom: 1vh;
+}
+.form-nom {
+    display: inline-block;
+    border-radius: 30px;
+    border-color: #151a22;
+    border-width: 0;
+    margin-right: 1vh;
+}
+.form-nom input {
+    padding: 2vh;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #273341;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    transition: all 450ms;
+    &:hover {
+        background-color: whitesmoke;
+    }
+}
+.form-email {
+    display: inline-block;
+    margin-bottom: 1vh;
+}
+.form-email input {
+    padding: 2vh;
+    border-radius: 30px;
+    outline:none;
+    border: none;
+    background-color: #273341;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    transition: all 450ms;
+    &:hover {
+        background-color: whitesmoke;
+    }
+}
+.form-demande {
+    border-radius:30px;
+}
+.form-demande input {
+    padding: 2vh;
+    height: 5vh;
+    width: 400px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #273341;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    transition: all 450ms;
+    &:hover {
+        background-color: whitesmoke;
+    }
+}
+.form-submit input {
+    border-radius: 30px;
+    padding: 1vh;
+    outline: none;
+    border: none;
+    background-color: #273341;
+    font: 400 13.3333px "Karla", sans-serif;
+    color: grey;
+    font-size: medium;
+    font-weight: bold;
+    transition: all 450ms;
+    &:hover {
+        background-color: whitesmoke;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //------------ Liens -----------//
 
 a:link {
