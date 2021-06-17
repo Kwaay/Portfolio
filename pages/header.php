@@ -11,7 +11,7 @@
         
     </head>
     <body>
-        <section class="header">
+        <section id="header">
             <div class="header-container">
                 <img src="images/logos/insert_logo.png" alt="Mon Logo">
                 <div class="buttons">

@@ -244,7 +244,7 @@
                     <form method="POST" action="mail.php">
                         <div class="form-nom">
                             <label for="nom"></label>
-                            <input type="textarea" name="nom" id="nom" placeholder="Votre nom">
+                            <input type="text" name="nom" id="nom" placeholder="Votre nom">
                         </div>
                         <div class="form-email">
                             <label for="email"></label>
@@ -253,7 +253,7 @@
                         <br />
                         <div class="form-demande">
                             <label for="demande"></label>
-                            <input type="textarea" name="demande" id="demande" placeholder="Votre Demande">
+                            <input type="text" name="demande" id="demande" placeholder="Votre Demande">
                         </div>
                         <br />
                         <div class="form-submit">

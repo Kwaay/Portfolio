@@ -51,7 +51,7 @@ ul {
   list-style-type: circle;
 }
 
-.header {
+#header {
   align-items: center;
   margin: 0 auto;
   background-color: #273341;
@@ -440,6 +440,8 @@ ul {
   margin-top: 2vh;
   margin-bottom: 1vh;
   margin-right: 1vh;
+  width: 60px;
+  height: 60px;
 }
 
 .projet-chalets-caviar {
@@ -506,6 +508,8 @@ ul {
   margin-top: 2vh;
   margin-bottom: 1vh;
   margin-right: 1vh;
+  width: 60px;
+  height: 60px;
 }
 
 .projet-1 {
