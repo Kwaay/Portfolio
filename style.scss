@@ -2,14 +2,14 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 500vh;
     font-family: "Karla", sans-serif;
     background-color: #151a22;
-
+    position: relative;
+    padding-bottom: 60px;
 }
 section {
     overflow: hidden;
-    position: relative;
+    
 }
 p {
     margin-block-start: 0;
@@ -129,7 +129,10 @@ ul {
     width: 100%;
     text-align: center;
     justify-content: flex-start;
-    position: relative;
+    transition: all 800ms;
+    &:hover {
+        background-color: rgb(104, 104, 104);    
+    }
 }
 .presentation-presentation {
     padding-top: 2vh;
@@ -368,16 +371,26 @@ ul {
 
 //------------ Section : Formations -----------//
 
-.formation-container {
+.formation-container-prep {
     color: white;
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top: 12vh;
+    transition: all 800ms;
+    &:hover {
+        background-color: rgb(104, 104, 104);    
+    }
+}
+.formation-container-web {
+    color: white;
+    transition: all 800ms;
+    &:hover {
+        background-color: rgb(104, 104, 104);    
+    }
 }
 
 .formation-prep-fullstack {
     color: white;
     padding: 2vh;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .formation-prep-fullstack p {
     text-align: justify;
@@ -401,6 +414,10 @@ ul {
     display: inline-flex;
     align-items: center;
     margin-bottom: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-chalets-caviar img {
     width: 300px;
@@ -409,12 +426,13 @@ ul {
 .projet-chalets-caviar p {
     padding: 1vh;
 }
-.projet-chalets-caviar ul {
-    margin-top:-20px;
-}
 .projet-gbaf {
     display: inline-flex;
     align-items: center;
+    transition: all 800ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-gbaf img {
     width: 300px;
@@ -423,14 +441,13 @@ ul {
 .projet-gbaf p {
     padding: 1vh;
 }
-.projet-gbaf ul {
-    margin-top:-20px;
-}
 //------------ 2 -----------//
 
 .formation-dev-web {
     color: white;
     padding: 2vh;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .formation-dev-web p {
     text-align: justify;
@@ -454,18 +471,23 @@ ul {
     display: inline-flex;
     align-items: center;
     margin-bottom: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-1 img {
     width: 300px;
     height: 150px;
 }
-.projet-1 ul {
-    margin-top:-20px;
-}
 .projet-2 {
     display: inline-flex;
     align-items: center;
     margin-bottom: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-2 img {
     width: 300px;
@@ -474,13 +496,14 @@ ul {
 .projet-2 p {
     padding: 1vh;
 }
-.projet-2 ul {
-    margin-top:-20px;
-}
 .projet-3 {
     display: inline-flex;
     align-items: center;
     margin-bottom: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-3 img {
     width: 300px;
@@ -489,13 +512,14 @@ ul {
 .projet-3 p {
     padding: 1vh;
 }
-.projet-3 ul {
-    margin-top:-20px;
-}
 .projet-4 {
     display: inline-flex;
     align-items: center;
     margin-bottom: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-4 img {
     width: 300px;
@@ -504,13 +528,14 @@ ul {
 .projet-4 p {
     padding: 1vh;
 }
-.projet-4 ul {
-    margin-top:-20px;
-}
 .projet-5 {
     display: inline-flex;
     align-items: center;
     margin-bottom: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-5 img {
     width: 300px;
@@ -519,12 +544,13 @@ ul {
 .projet-5 p {
     padding: 1vh;
 }
-.projet-5 ul {
-    margin-top:-20px;
-}
 .projet-6 {
     display: inline-flex;
     align-items: center;
+    transition: all 450ms;
+    &:hover {
+        margin-left:5vh;
+    }
 }
 .projet-6 img {
     width: 300px;
@@ -533,15 +559,18 @@ ul {
 .projet-6 p {
     padding: 1vh;
 }
-.projet-6 ul {
-    margin-top:-20px;
-}
 
 //------------ Section: Contact -----------//
+#contact {
+    padding-bottom: 60px;
+    transition: all 800ms;
+    &:hover {
+        background-color: rgb(104, 104, 104);    
+    }
+}
 .contact-container {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 12vh;
 }
 .contact-form {
     color: white;
@@ -624,10 +653,57 @@ ul {
         background-color: whitesmoke;
     }
 }
+//------------ Divide -----------//
+#divide1 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: grey;
+    height: 5px;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+}
+#divide2 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: grey;
+    height: 5px;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+}
 
+//------------ Section : Footer -----------//
 
-
-
+#footer {
+    position:absolute;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    background-color: #273341;
+    padding: 1vh;
+    margin-top: 2vh;
+}
+.footer-container {
+    text-align: center;
+    color: white;
+    font-size: large;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.up {
+    text-align: right;
+    padding: 0.5vh;
+    transition: all 450ms;
+    &:hover {
+        border: 1px solid white;
+        border-radius: 30px;
+        background-color: white;
+        color: black;
+    }
+}
 
 
 

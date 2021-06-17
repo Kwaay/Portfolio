@@ -90,9 +90,12 @@
                 </p>
             </div>
         </section>
-
+        <br />
+        <div id="divide1">
+        </div>
+        <br />
         <section id="formations">
-            <div class="formation-container">
+            <div class="formation-container-prep">
                 <div class="formation-prep-fullstack">
                     <h2><img src="images/logos/oc-logo.png" alt="Logo OpenClassrooms" width="60px" height="60px">Formation "Prep'FullStack"</h2>
                     <p>
@@ -103,10 +106,8 @@
                         Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. circumstetere igitur hoc munimentum per triduum et trinoctium et cum neque adclivitas ipsa sine discrimine adiri letali, nec cuniculis quicquam geri posset, nec procederet ullum obsidionale commentum, maesti excedunt postrema vi subigente maiora viribus adgressuri.
                     </p>
                     <h3>Projets effectués :</h3>
-                    <ul>
-                        <li>
                             <div class="projet-chalets-caviar">
-                                <h4>Intégrez un thème WordPress<br /><img src="images/site_portfolio_01.png" alt="Logo de Chalets & Caviar"> </h4>
+                                <h4> | - Intégrez un thème WordPress<br /><img src="images/site_portfolio_01.png" alt="Logo de Chalets & Caviar"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Adapter un thème Wordpress pour respecter les exigences du client</li>
@@ -115,10 +116,9 @@
                                 
                                 </ul>
                             </div>
-                        </li>
-                        <li>
+                            <br />
                             <div class="projet-gbaf">
-                                <h4>Réalisez l'extranet d'un groupe bancaire<br /><img src="images/site_portfolio_02.png" alt="Logo GBAF"> </h4>
+                                <h4> | - Réalisez l'extranet d'un groupe bancaire<br /><img src="images/site_portfolio_02.png" alt="Logo GBAF"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Coder la structure d’une page web en HTML5</li>
@@ -129,8 +129,7 @@
                                     <li>Se connecter à une base de données</li>
                                 </ul>
                             </div>
-                        </li>
-                    </ul>
+                            <br />
                     <h3> Compétences acquises durant cette formation : </h3>
                     <ul>
                         <li>Adapter un thème WordPress</li>
@@ -139,7 +138,9 @@
                         <li>Recueillir la saisie d’un formulaire utilisateur en langage PHP</li>
                     </ul>
                 </div>
-                <br />
+            </div>
+            <br />
+            <div class="formation-container-web">
                 <div class="formation-dev-web">
                     <h2><img src="images/logos/oc-logo.png" alt="Logo OpenClassrooms" width="60px" height="60px">Formation "Développeur Web"</h2>
                     <p>
@@ -150,10 +151,8 @@
                         Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. circumstetere igitur hoc munimentum per triduum et trinoctium et cum neque adclivitas ipsa sine discrimine adiri letali, nec cuniculis quicquam geri posset, nec procederet ullum obsidionale commentum, maesti excedunt postrema vi subigente maiora viribus adgressuri.
                     </p>
                     <h3>Projets effectués :</h3>
-                    <ul>
-                        <li>
                             <div class="projet-1">
-                                <h4>Transformez une maquette en site web<br /><img src="images/coming-soon.png" alt="Projet 1"> </h4>
+                                <h4> | - Transformez une maquette en site web<br /><img src="images/coming-soon.png" alt="Projet 1"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Utiliser un système de gestion de versions pour le suivi du projet et son hébergement</li>
@@ -162,10 +161,9 @@
                                     <li>Intégrer du contenu conformément à une maquette</li>
                                 </ul>
                             </div>
-                        </li>
-                        <li>
+                            <br />
                             <div class="projet-2">
-                                <h4>Dynamisez avec des animations CSS<br /><img src="images/coming-soon.png" alt="Projet 2"> </h4>
+                                <h4> | - Dynamisez avec des animations CSS<br /><img src="images/coming-soon.png" alt="Projet 2"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Mettre en œuvre des effets CSS graphiques avancés</li>
@@ -173,10 +171,9 @@
                                     <li>Mettre en place une structure de navigation pour un site web</li>
                                 </ul>
                             </div>
-                        </li>
-                        <li>
+                            <br />
                             <div class="projet-3">
-                                <h4>Optimisez un site web existant<br /><img src="images/coming-soon.png" alt="Projet 3"> </h4>
+                                <h4> | - Optimisez un site web existant<br /><img src="images/coming-soon.png" alt="Projet 3"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Optimiser la taille et la vitesse d’un site web</li>
@@ -186,10 +183,9 @@
                                     <li>Optimiser le référencement d'un site web</li>
                                 </ul>
                             </div>
-                        </li>
-                        <li>
+                            <br />
                             <div class="projet-4">
-                                <h4>Construisez un site e-commerce<br /><img src="images/coming-soon.png" alt="Projet 4"> </h4>
+                                <h4> | - Construisez un site e-commerce<br /><img src="images/coming-soon.png" alt="Projet 4"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Interagir avec un web service avec JavaScript</li>
@@ -198,10 +194,9 @@
                                     <li>Gérer des événements JavaScript</li>
                                 </ul>
                             </div>
-                        </li>
-                        <li>
+                            <br />
                             <div class="projet-5">
-                                <h4>Construisez une API sécurisée<br /><img src="images/coming-soon.png" alt="Projet 5"> </h4>
+                                <h4> | - Construisez une API sécurisée<br /><img src="images/coming-soon.png" alt="Projet 5"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Implémenter un modèle logique de données conformément à la réglementation</li>
@@ -209,10 +204,9 @@
                                     <li>Mettre en œuvre des opérations CRUD de manière sécurisée</li>
                                 </ul>
                             </div>
-                        </li>
-                        <li>
+                            <br />
                             <div class="projet-6">
-                                <h4>Créez un réseau social d’entreprise<br /><img src="images/coming-soon.png" alt="Projet 6"> </h4>
+                                <h4> | - Créez un réseau social d’entreprise<br /><img src="images/coming-soon.png" alt="Projet 6"> </h4>
                                 <ul>
                                     <h3>Compétences cibles :</h3>
                                     <li>Authentifier un utilisateur et maintenir sa session</li>
@@ -221,8 +215,7 @@
                                     <li>Personnaliser le contenu envoyé à un client web</li>
                                 </ul>
                             </div>
-                        </li>
-                    </ul>
+                            <br />
                     <h3> Compétences acquises durant cette formation : </h3>
                     <ul>
                         <li>Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS</li>
@@ -240,6 +233,10 @@
                 </div>
             </div>   
         </section>
+        <br />
+        <div id="divide2">
+        </div>
+        <br />
         <section id="contact">
             <div class="contact-container">
                 <div class="contact-form">
@@ -266,6 +263,4 @@
                 </div>
             </div> 
         </section>
-    </body>
-</html>
-<?php include('pages/footer.php'); ?>
+        <?php include('pages/footer.php'); ?>

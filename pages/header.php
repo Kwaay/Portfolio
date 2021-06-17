@@ -19,10 +19,10 @@
                         <a href="#presentation" class="link-button">Présentation</a>
                     </div>
                     <div class="button-skills">
-                        <a href="#formations" class="link-button">Formations</a>
+                        <a href="#divide1" class="link-button">Formations</a>
                     </div>
                     <div class="button-contact">
-                        <a href="#contact" class="link-button">Contact</a>
+                        <a href="#divide2" class="link-button">Contact</a>
                     </div>
                 </div>
             </div> 
